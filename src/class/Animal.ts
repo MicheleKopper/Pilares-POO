@@ -52,7 +52,7 @@ export class Cachorro extends Animal {
     }
 
     public latir(): void {
-        console.log(`${this.getNome()} está latindo!`);
+        console.log(`${this.getNome()} está latindo`);
     }
 }
 
@@ -63,7 +63,7 @@ export class Cavalo extends Animal {
     }
 
     public trotar(): void {
-        console.log(`${this.getNome()} está trotando!`);
+        console.log(`${this.getNome()} está trotando`);
     }
 }
 
@@ -74,6 +74,6 @@ export class Gato extends Animal {
     }
 
     public miar(): void {
-        console.log(`${this.getNome()} está miando!`);
+        console.log(`${this.getNome()} está miando`);
     }
 }
