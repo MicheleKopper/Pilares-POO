@@ -27,7 +27,7 @@ export class Animal {
     }
 
     public dormir(): void {
-        console.log(`${this._nome} gosta de dormir?`);
+        console.log(`${this._nome} gosta de dormir`);
     }
 
     // get torna público, é possível visualizar (leitura) o atributo, mas não alterar, get precisa retornar algo
